@@ -2,25 +2,20 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
-a {
-  
-}
-
-a:hover {
-  
-}
-
 body {
-  
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
 
-h1 {
-  
+.poppins {
+  font-family: 'Poppins', sans-serif;
 }
 
-button {
-  
+.archivo-black {
+  font-family: 'Archivo Black', sans-serif; /* Fonte para elementos com a classe "archivo-black" */
 }
-button:hover {
-  
+
+.inter {
+  font-family: 'Inter', sans-serif; /* Fonte padrão para o corpo do texto */
 }

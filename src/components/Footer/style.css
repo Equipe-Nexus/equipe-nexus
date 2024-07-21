@@ -1,0 +1,152 @@
+footer {
+    color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000;
+    text-align: center;
+    position: relative; /* Necessário para o posicionamento absoluto do spray */
+}
+
+footer .contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 36px;
+    padding: 0 20%;
+}
+
+footer .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    text-align: center;
+}
+
+footer .contact p {
+    margin: 0;
+}
+
+footer .aboutUs {
+    text-align: center;
+    background-image: url('./assets/inicio.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+footer .gradient-button {
+    background: linear-gradient(90deg, #126375, #2ED9FF);
+    border: 0.5px solid #000000;
+    cursor: pointer;
+    color: white;
+    padding: 16px 40px;
+    margin-bottom: 50px;
+    margin-top: 36px;
+    font-size: 24px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+    border-radius: 8px;
+}
+
+footer .gradient-button:hover {
+    background: linear-gradient(90deg, #126375, #2ED9FF);
+}
+
+footer .textBar {
+    display: inline-block;
+    position: relative;
+    font-size: inherit;
+    color: inherit;
+    line-height: 1;
+}
+
+/* Barra do texto */
+footer .textBar::after {
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(90deg, #FFFFFF 5%, #2ED9FF 95%);
+    z-index: 1;
+}
+
+footer .slogan {
+    height: 263px;
+    text-align: center;
+    background-image: url('./assets/foot.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+footer .slogan p {
+    margin: 0;
+}
+
+/* Spray effect */
+footer .spray {
+    position: absolute;
+    top: 50%; /* Ajuste a posição vertical */
+    left: 50%; /* Ajuste a posição horizontal */
+    transform: translate(-50%, -50%); /* Centraliza o SVG */
+    width: 50%; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção do SVG */
+    background: url('./assets/blueSpray.svg') no-repeat center center;
+    background-size: contain; /* Ajuste para cover se necessário */
+    z-index: 5; /* Ajusta o índice z se precisar que fique atrás de outros elementos */
+}
+
+/* Media Queries */
+/* Media Queries */
+@media (max-width: 768px) {
+    footer {
+        height: auto;
+    }
+
+    footer .contacts {
+        flex-direction: column;
+        padding: 0 10%;
+    }
+
+    footer .contact {
+        margin-bottom: 20px; /* Espaçamento entre os contatos em dispositivos móveis */
+    }
+
+    footer .gradient-button {
+        width: 100%;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    footer .contact p {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 480px) {
+    footer .gradient-button {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    footer .contact p {
+        font-size: 20px;
+    }
+
+    footer .contact {
+        margin-bottom: 30px; /* Aumenta o espaçamento entre contatos em dispositivos muito pequenos */
+    }
+}
+
