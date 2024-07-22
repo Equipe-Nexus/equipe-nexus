@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 a {
@@ -11,7 +13,7 @@ a:hover {
 }
 
 body {
-  
+  background-image: linear-gradient(to right, #000406, #1f343e);
 }
 
 h1 {
