@@ -3,6 +3,7 @@ import NexusCell from '../../assets/NexusCell.png';
 import Ellipse from '../../assets/ellipse.png';
 
 export function LandingPage() {
+
     return (
         <main>
             <section className="section1">
