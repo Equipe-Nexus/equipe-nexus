@@ -1,5 +1,4 @@
 import "./style.css"
-import "../../index.css"
 import { Phone, InstagramLogo, Mailbox } from "@phosphor-icons/react"
 
 export function Footer() {
