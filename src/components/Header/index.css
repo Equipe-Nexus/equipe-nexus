@@ -1,0 +1,11 @@
+footer .spray {
+    position: absolute;
+    top: 50%; /* Ajuste a posição vertical */
+    left: 50%; /* Ajuste a posição horizontal */
+    transform: translate(-50%, -50%); /* Centraliza o SVG */
+    width: 50%; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção do SVG */
+    background: url('./assets/blueSpray.svg') no-repeat center center;
+    background-size: contain; /* Ajuste para cover se necessário */
+    z-index: 5; /* Ajusta o índice z se precisar que fique atrás de outros elementos */
+}
