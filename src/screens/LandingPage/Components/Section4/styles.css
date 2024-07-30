@@ -7,8 +7,9 @@
     flex-direction: column;
     overflow: hidden;
     padding-inline: 3rem;
-    padding-block: 2rem;
+    padding-block: 3rem;
     text-align: center;
+    gap: 30px
   }
   
   .section4__top {
