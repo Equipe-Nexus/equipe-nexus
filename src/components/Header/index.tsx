@@ -45,7 +45,6 @@ export function Header() {
         <header className='header'>
             <img src={Logo} alt='Logo Eqquipe Nexus' className='logo' />
             {location.pathname === '/' && <HomeNavigation />}
-            <div />
         </header>
     )
 }
