@@ -2,8 +2,7 @@ import './styles.css';
 
 export function Section3() {
     return (
-        <main>
-            <div className="section-3" >
+        <div className="section-3" >
                 <div className="section3__title">
                     <h1 className="title" >Com a nossa equipe você pode impulsonar a sua empresa!</h1>
                 </div>
@@ -15,6 +14,5 @@ export function Section3() {
                     </div>
                 </div>
             </div>
-        </main>
     )
 }
